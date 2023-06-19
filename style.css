@@ -19,17 +19,17 @@ body{
     align-items: center;
     justify-content: center;
     border: 5px solid orangered;
-    height: 250px;
-    width: 220px;
-    background-color: rgb(37, 37, 37);
+    height: 290px;
+    width: 240px;
+    background-color: rgb(29, 29, 29);
     border-radius: 5px;
 }
 
 button{
     text-align: center;
-    padding: 5px;
+    padding: 7px;
     width: 35px;
-    margin: 3px;
+    margin: 5px;
     border-radius: 5px;
     border: none;
     transition: transfrom 0.5s;
@@ -43,10 +43,12 @@ button:hover{
 #input{
     text-align: right;
     margin-bottom: 10px;
-    height: 35px;
-    width: 175px;
-    border: 1px solid black;
+    height: 45px;
+    width: 184px;
+    border: 4px solid rgb(0, 0, 0);
     background-color: rgb(194, 230, 139);
     font-weight: 700;
+    font-size: 20px;
+    cursor: none;
 }
 
